@@ -181,7 +181,7 @@ img {
   color: var(--ocean);
 }
 
-.nav-link.current::after {
+.link.current::after {
   content: '';
   position: absolute;
   left: 0;
@@ -190,6 +190,7 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
+  display: block;
 }
 
 .body-medium.link {
@@ -438,19 +439,4 @@ img {
 
 .section {
   padding: 120px 0;
-}
-
-.section-two {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.section-three {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.section-four {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
