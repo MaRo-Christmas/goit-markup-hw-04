@@ -181,7 +181,7 @@ img {
   color: var(--ocean);
 }
 
-.link.current::after {
+.nav-link.current::after {
   content: '';
   position: absolute;
   left: 0;
