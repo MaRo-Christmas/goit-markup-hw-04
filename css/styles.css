@@ -183,13 +183,13 @@ img {
 
 .link.current::after {
   content: '';
+  width: 100%;
   position: absolute;
   left: 0;
   bottom: -1px;
-  width: 100%;
   height: 4px;
-  border-radius: 2px;
   background-color: #404bbf;
+  border-radius: 2px;
   display: block;
 }
 
