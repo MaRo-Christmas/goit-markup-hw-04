@@ -180,7 +180,7 @@ img {
   position: relative;
   color: var(--ocean);
 }
-.current::after {
+.address-link.current::after {
   content: '';
   position: absolute;
   left: 0;
