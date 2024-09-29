@@ -183,11 +183,11 @@ img {
 }
 
 .link.current {
-  color: var(--navy-blue) transparent;
+  color: var(--navy-blue);
 }
 
 .link.current::after {
-  background-color: #404bbf;
+  background-color: #404bbf transparent;
 }
 
 .nav-list .link:hover ~ .link.current::after {
