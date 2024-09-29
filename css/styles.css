@@ -245,7 +245,7 @@ img {
 }
 
 .nav-list .link:first-child {
-  color: var(--ocean) transparent;
+  color: var(--ocean);
 }
 
 .nav-list:hover,
