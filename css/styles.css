@@ -159,9 +159,9 @@ img {
 .link::after {
   content: '';
   position: absolute;
-  left: 50%;
+  left: 0;
   transform: translateX(-50%);
-  bottom: 0;
+  bottom: -1px;
   width: 48px;
   height: 4px;
   background-color: transparent;
@@ -170,7 +170,8 @@ img {
 
 .link:hover::after,
 .link:focus::after {
-  background-color: var(--iris);
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .current {
